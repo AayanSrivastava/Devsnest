@@ -57,7 +57,7 @@ library.map((obj) => {
 });
 
 //5
-console.log("\n***Question 5***");
+console.log("\n***Question5***");
 var cylinder = new Object({
   pi: 3.1416,
   radius: 6,
