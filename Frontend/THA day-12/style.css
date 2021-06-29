@@ -1,0 +1,71 @@
+.todos{
+  margin: 10px;
+}
+
+.card-top{
+  text-align: center; 
+  font-size: 30px;
+}
+
+.card-main{
+  text-align: center;
+}
+
+.card-col{
+  margin-top:10px;
+}
+#space{
+  margin: 1vw;
+}
+
+a{
+  padding: 1vw;
+  text-decoration: none;
+  display: block;
+  background-color: rgb(200, 159, 238);
+  font-size: 5vw;
+  color: rgb(150, 108, 52);
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#todoName{
+  border-radius: 1vw;
+  padding: 1vw;
+}
+#todoDay{
+  padding: 1vw;
+}
+
+#todoMonth{
+  padding: 1vw;
+}
+#todoYear{
+  padding: 1vw;
+}
+
+.btn{
+  padding: 1vw;
+  background-color: rgb(161, 161, 238);
+  border-radius: 3px;
+}
+
+.btn:hover{
+  padding: 1vw;
+  transition: all;
+  transition-delay: 0.5s;
+  background-color: rgb(231, 231, 243);
+}
+
+#todo-list{
+  border: blueviolet;
+}
+
+.card{
+  border: 3px solid rgba(104, 0, 201, 0.4);
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  margin: 1vw;
+  padding: 1vw;
+  background-color: cornsilk;
+}

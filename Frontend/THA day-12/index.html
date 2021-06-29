@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="#">Aayan's Todo List</a>
+    <div id="space"></div>
+    <div> 
+      <form>
+        <input id="todoName" type="text" placeholder="Todo Name">
+        <select id="todoDay">
+        </select>
+        <select id="todoMonth">
+        </select>
+        <select id="todoYear">
+        </select>
+        <button class="btn btn-danger type="button" onclick="addTodo()">Add</button>
+      </form>
+    </div>
+  </nav>
+  <br>
+    <div>
+      <div id="todo-list">
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
