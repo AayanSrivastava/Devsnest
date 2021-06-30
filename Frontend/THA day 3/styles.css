@@ -5,13 +5,13 @@ body{
 #tableheading{
     font-weight: bold;
 }
-#info{
+/* #info{
     font-weight: 5vw;
     position: absolute;
     top: 4vw;
     left: 12vw;
     line-height: 2vw;
-}
+} */
 img{
     border: 5px solid black;
 }
@@ -57,7 +57,20 @@ span{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vw;
 }
+#table2{
+    border-collapse: collapse;
+}
 #table1{
     border-collapse: separate;
     border-spacing: 1vw 0;
+}
+#intro{
+    font-weight: 5vw;
+    position: absolute;
+    top: 4vw;
+    left: 12vw;
+    line-height: 2vw;
+}
+#name{
+    
 }
