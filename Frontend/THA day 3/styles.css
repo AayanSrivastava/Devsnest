@@ -1,28 +1,28 @@
 body{
-    margin: 10px;
+    margin: 1vw;
     padding: auto;
 }
 #tableheading{
     font-weight: bold;
 }
 #info{
-    font-weight: 500;
+    font-weight: 5vw;
     position: absolute;
-    top: 67px;
-    left: 155px;
-    line-height: 21px;
+    top: 4vw;
+    left: 12vw;
+    line-height: 2vw;
 }
 img{
     border: 5px solid black;
 }
 #lineh{
-    line-height: 30px;
+    line-height: 2vw;
 }
 .heading{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 25px;
+    line-height: 2vw;
     background-color: rgb(201, 155, 245);
 }
 p{
@@ -35,21 +35,29 @@ a{
 }
 #d{
     position: absolute;
-    top: -3px;
-    right: 3px;
+    top: 0.2vw;
+    right: 0.3vw;
 }
 #a{
     position: absolute;
-    top: 80px;
-    right: 3px;
+    top: 7vw;
+    right: 0.3vw;
 }
 #name{
     font-family: monospace;
-    font-size: 25px;
+    font-size: 2.5vw;
     position: absolute;
-    top: -17px;
-    left: 157px;
+    top: -1.4vw;
+    left: 12vw;
 }
 span{
-    font-size: 15px;
+    font-size: 1.5vw;
+}
+.ct{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}
+#table1{
+    border-collapse: separate;
+    border-spacing: 1vw 0;
 }
